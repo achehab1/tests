@@ -1,7 +1,7 @@
 // gmail code
 
 var runCode = function() {
-    var gmail = Gmail();
+    gmail = Gmail();
     
     var email_data = gmail.get.email_data();
     if(email_data) {
