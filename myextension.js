@@ -8,7 +8,8 @@ var runCode = function() {
         window.postMessage({"type" : "edata", "str_data" : JSON.stringify(email_data) }, '*');
     }
     
-    gmail.observe.on('open_email', function(id, url, body) {
+    gmail.observe.on('open_email', function(id, url, body, xhr) {
+                     console.log("id:", id, "url:", url, 'body', body, 'xhr', xhr);
                      console.log('new email!', id);
                      window.postMessage({ "type": "new_email", "message_id": id }, "*");
                      });

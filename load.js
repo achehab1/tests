@@ -14,7 +14,7 @@ window.onload = function () {
     
     window.addEventListener("message", function(event) {
                             if(event.data.type && (event.data.type == "new_email")) {
-                            alert('new mail');
+                            alert('new mail' + event.data.message_id);
                             port.postMessage({ type: "save_email_id", id: event.data.message_id});
                             }
                             }, false);
