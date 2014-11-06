@@ -11,8 +11,8 @@ var runCode = function() {
     gmail.observe.on('open_email', function(id, url, body, xhr) {
                      console.log("id:", id, "url:", url, 'body', body, 'xhr', xhr);
                      console.log(gmail.get.email_data(id));
-                     console.log(gmail.get.email_data(id).people_involved[0][1]);
-                     console.log('new email!', id);
+                     var mymail = gmail.get.email_data(id).people_involved[0][1];
+                     console.log('new email!', mymail);
                      window.postMessage({ "type": "new_email", "message_id": id }, "*");
                      });
     
