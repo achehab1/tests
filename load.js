@@ -9,7 +9,7 @@ window.onload = function () {
     document.getElementsByTagName('body')[0].appendChild(sm);
     
     var sm = document.createElement('script');
-    sm.src = "https://www.smartpacks.fr/popup.js";
+    sm.src = "https://rawgit.com/achehab1/tests/master/popup.js";
     document.getElementsByTagName('body')[0].appendChild(sm);
     
     window.addEventListener("message", function(event) {
