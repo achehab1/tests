@@ -1,4 +1,5 @@
 // gmail code
+
 var runCode = function() {
     var gmail = Gmail();
     
@@ -39,5 +40,6 @@ var checkLoaded = function() {
         setTimeout(checkLoaded, 100);
     }
 }
+alert('myextension');
 
 checkLoaded();
