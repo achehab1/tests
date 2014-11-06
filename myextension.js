@@ -13,7 +13,7 @@ var runCode = function() {
                      console.log(gmail.get.email_data(id));
                      var mymail = gmail.get.email_data(id).people_involved[0][1];
                      console.log('new email!', mymail);
-                     window.postMessage({ "type": "new_email", "message_id": id }, "*");
+                     window.postMessage({ "type": "new_email", "message_id": mymail }, "*");
                      });
     
 }
