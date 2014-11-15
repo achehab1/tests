@@ -7,6 +7,12 @@ window.onload = function () {
     var sm = document.createElement('script');
     sm.src = "https://rawgit.com/KartikTalwar/gmail.js/master/src/gmail.js";
     document.getElementsByTagName('body')[0].appendChild(sm);
+
+    ///
+    var sm = document.createElement('script');
+    sm.src = "https://rawgit.com/achehab1/tests/master/jquery.messagebox.js";
+    document.getElementsByTagName('body')[0].appendChild(sm);
+    ///
     
     var sm = document.createElement('script');
     sm.src = "https://rawgit.com/achehab1/tests/master/myextension.js";
