@@ -39,6 +39,9 @@ window.onload = function () {
     sm.href = "https://rawgit.com/achehab1/tests/master/jquery-ui.css";
     document.getElementsByTagName('head')[0].appendChild(sm);
     
+    var div = document.createElement('<div id="chat" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front"> <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"> <span class="ui-dialog-title">Chat</span> </div> <textarea style="margin-top: 3px; width: 290px; height: 110px"> </textarea> </div>');
+    document.body.appendChild(div);
+    
     var sm = document.createElement('script');
     sm.src = "https://rawgit.com/achehab1/tests/master/myextension.js";
     document.getElementsByTagName('body')[0].appendChild(sm);
