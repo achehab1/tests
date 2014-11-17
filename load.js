@@ -44,6 +44,7 @@ window.onload = function () {
     
     var div = document.createElement('div');
     div.id='chat';
+    div.class='ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix';
     div.innerHTML='<textarea style="margin-top: 3px; width: 290px; height: 110px"> </textarea>';
     document.body.appendChild(div);
     
