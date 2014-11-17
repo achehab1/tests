@@ -45,6 +45,6 @@ var checkLoaded = function() {
         setTimeout(checkLoaded, 100);
     }
 }
-Console.log('myextension started');
+console.log('myextension started');
 
 checkLoaded();
