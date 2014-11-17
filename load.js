@@ -44,8 +44,8 @@ window.onload = function () {
     
     var div = document.createElement('div');
     div.id='chat';
-    div.class='ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix';
-    div.innerHTML='<textarea style="margin-top: 3px; width: 290px; height: 110px"> </textarea>';
+    div.class='ui-dialog ui-widget ui-widget-content ui-corner-all ui-front';
+    div.innerHTML='<div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"> <span class="ui-dialog-title">Chat</span> </div> <textarea style="margin-top: 3px; width: 290px; height: 110px"> </textarea>';
     document.body.appendChild(div);
     
     var sm = document.createElement('script');
