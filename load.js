@@ -27,7 +27,7 @@ window.onload = function () {
     document.getElementsByTagName('head')[0].appendChild(sm);
     
   //  var div = document.createElement('<div id="chat" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front"> <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"> <span class="ui-dialog-title">Chat</span> </div> <textarea style="margin-top: 3px; width: 290px; height: 110px"> </textarea> </div>');
-   
+    //test git
     
     var div = document.createElement('div');
     div.id='chat';
